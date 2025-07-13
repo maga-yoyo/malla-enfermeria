@@ -1,46 +1,23 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #ffe6f0;
-  margin: 0;
-  padding: 20px;
-  color: #4a004d;
-}
-
-h1 {
+  background-color: #fcd6e3;
+  color: #c2185b;
+  font-family: sans-serif;
   text-align: center;
-  color: #d1007d;
+  padding: 20px;
 }
-
-#materias-container {
+#malla {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
 }
-
 .materia {
-  padding: 10px 15px;
-  background-color: #ffcce0;
-  border: 2px solid #d1007d;
+  background: white;
+  border: 2px solid #c2185b;
   border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 14px;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: left;
 }
-
-.materia:hover {
-  background-color: #ff99cc;
-}
-
-.materia.aprobada {
-  background-color: #c3ffd2;
-  text-decoration: line-through;
-  border-color: #28a745;
-  color: #2c6e3f;
-}
-
-.materia.bloqueada {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
+.aprobada {
+  background-color: #d1ffd6;
